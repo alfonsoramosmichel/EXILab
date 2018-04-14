@@ -1,0 +1,32 @@
+PCBNEW-LibModule-V1  mié 19 dic 2012 00:39:50 CST
+# encoding utf-8
+$INDEX
+resistor12x5v
+$EndINDEX
+$MODULE resistor12x5v
+Po 0 0 0 15 50D16113 50D15CF7 ~~
+Li resistor12x5v
+Sc 50D15CF7
+AR resistor8x3
+Op 0 0 0
+T0 394 -787 394 394 0 99 N V 21 N "resistor12x5v"
+T1 394 787 394 394 0 99 N V 21 N "VAL**"
+DA -787 0 -1772 0 900 150 21
+DA -787 0 -787 984 900 150 21
+DS 1181 0 197 0 150 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -787 0
+$EndPAD
+$PAD
+Sh "2" C 787 787 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1181 0
+$EndPAD
+$EndMODULE  resistor12x5v
+$EndLIBRARY

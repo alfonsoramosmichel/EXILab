@@ -1,0 +1,32 @@
+PCBNEW-LibModule-V1  mar 08 ene 2013 14:27:58 CST
+# encoding utf-8
+$INDEX
+con1
+$EndINDEX
+$MODULE con1
+Po 0 0 0 15 50EC80B9 00000000 ~~
+Li con1
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 -1000 600 600 0 120 N V 21 N "con1"
+T1 0 1000 600 600 0 120 N V 21 N "VAL**"
+DS -500 -500 500 -500 150 21
+DS 500 -500 500 500 150 21
+DS 500 500 -500 500 150 21
+DS -500 500 -500 -500 150 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$SHAPE3D
+Na "../../librerias kicad/modules/packages3d/exi-conectores/exi-pinhredondo.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  con1
+$EndLIBRARY

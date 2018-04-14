@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EXI_7812
+D Regulador lineal de voltaje constante +12V
+K POWER regulador
+$ENDCMP
+#
+$CMP L7805CV
+D Regulador de voltaje positivo de 1.5A max
+K POWER regulador
+F /usr/share/kicad/doc/Reguladores/l78xx - st.pdf
+$ENDCMP
+#
+$CMP L7905CV
+D Regulador de voltaje positivo de 1.5A max
+K POWER regulador
+F /usr/share/kicad/doc/Reguladores/l78xx - st.pdf
+$ENDCMP
+#
+$CMP LM138T
+D Regulador de voltaje ajustable positivo 5A
+K POWER regulador
+F /usr/share/kicad/doc/Reguladores/lm338 - national.pdf
+$ENDCMP
+#
+$CMP LM317_SOT223
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
+$ENDCMP
+#
+$CMP LM338T
+D Regulador ajustable 1.2 - 32V 5A
+F http://pdf1.alldatasheet.es/datasheet-pdf/view/8646/NSC/LM338T.html
+$ENDCMP
+#
+#End Doc Library

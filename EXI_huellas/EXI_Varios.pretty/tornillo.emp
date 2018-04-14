@@ -1,0 +1,23 @@
+PCBNEW-LibModule-V1  dom 10 feb 2013 09:41:40 CST
+# encoding utf-8
+$INDEX
+tornillo
+$EndINDEX
+$MODULE tornillo
+Po 0 0 0 15 5117BFA5 5117BF9B ~~
+Li tornillo
+Sc 5117BF9B
+AR tornillo
+Op 0 0 0
+T0 0 -1575 394 394 0 99 N I 21 N "tornillo"
+T1 0 0 394 394 0 99 N I 21 N "VAL**"
+DC 0 0 1181 0 150 21
+$PAD
+Sh "1" R 2559 2559 0 0 0
+Dr 1299 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  tornillo
+$EndLIBRARY

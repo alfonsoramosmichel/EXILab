@@ -1,0 +1,31 @@
+PCBNEW-LibModule-V1  dom 05 may 2013 13:26:42 CDT
+# encoding utf-8
+$INDEX
+resistor2v
+$EndINDEX
+$MODULE resistor2v
+Po 0 0 0 15 5186A446 5186A37A ~~
+Li resistor2v
+Sc 5186A37A
+AR resistor1
+Op 0 0 0
+T0 0 1000 394 394 0 99 N V 21 N "resistor2v"
+T1 0 -750 394 394 0 99 N V 21 N "VAL**"
+DS 0 0 500 0 79 21
+DC -500 0 -500 -500 79 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -500 0
+$EndPAD
+$PAD
+Sh "2" C 787 787 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 500 0
+$EndPAD
+$EndMODULE  resistor2v
+$EndLIBRARY
