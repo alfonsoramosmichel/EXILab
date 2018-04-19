@@ -1,4 +1,4 @@
-(module TO-220-3_Horizontal_Heatsink_10x15x21mm (layer F.Cu) (tedit 5A29D29B)
+(module TO-220-3_Horizontal_Heatsink_10x15x21mm (layer F.Cu) (tedit 5AD8A171)
   (descr "TO-220-3, Horizontal, RM 2.54mm")
   (tags "TO-220-3 Horizontal RM 2.54mm")
   (fp_text reference REF** (at 0 -20.58) (layer F.SilkS)
@@ -44,9 +44,9 @@
   (fp_line (start 5.25 -19.71) (end -5.25 -19.71) (layer F.CrtYd) (width 0.05))
   (fp_circle (center 0 -16.66) (end 1.85 -16.66) (layer F.Fab) (width 0.1))
   (pad 0 np_thru_hole oval (at 0 -16.66) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
-  (pad 1 thru_hole rect (at 2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (pad 2 thru_hole oval (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (pad 3 thru_hole oval (at -2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at 2.54 0) (size 2 2.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 0 0) (size 2 2.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole oval (at -2.54 0) (size 2 2.5) (drill 1) (layers *.Cu *.Mask))
   (model exi-transistores/exi_to220_horizontal_disipador_aluminio_facedown.wrl
     (at (xyz -0.197 0.5335 0.2))
     (scale (xyz 1 1 1))
