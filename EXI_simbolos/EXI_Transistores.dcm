@@ -56,6 +56,12 @@ $CMP EXI_UJT
 D Transistor monounión
 $ENDCMP
 #
+$CMP IRG4BC20KD
+D Transistor N-IGBT with ultrafast soft recovery diode
+K igbt n-igbt transistor
+F http://www.irf.com/product-info/datasheets/data/irg4bc20kd.pdf
+$ENDCMP
+#
 $CMP Q4015L5
 D Triodo para corriente alterna
 $ENDCMP
